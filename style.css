@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+body{
+    background: linear-gradient(yellow, orange, green)fixed;
+
+}
+
+.glavni{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drugi{
+    text-align: center;
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.naslov{
+    font-size: 40px;
+    color: aqua;
+    margin: 0 0 50px 0;
+    letter-spacing: 3px
+}
+
+.desavanje{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    color: purple;
+    font-size: 20px;
+}
+
+.obavestenje{
+    font-size: 40px;
+    color:  palevioletred
+}
+
+.rezultat{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 0;
+    color: palevioletred;
+    font-size: 20px;
+}
+
+.izbor{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0
+
+}
+
+.papir{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 2px solid orange;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+.papir:hover{
+    border-color: brown;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4)
+}
+
+.kamen{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 2px solid orange;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.kamen:hover{
+    border-color: brown;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4)
+}
+
+.makaze{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 2px solid orange;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.makaze:hover{
+    border-color: brown;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4)
+
+}
